@@ -1,0 +1,3 @@
+[submodule "third-party/FH2-FSR4"]
+	path = third-party/FH2-FSR4
+	url = https://github.com/aranhoso/FH2-FSR4.git

@@ -1,0 +1,24 @@
+# Build outputs
+*.dll
+*.exe
+*.obj
+*.lib
+*.pdb
+build/
+out/
+x64/
+Debug/
+Release/
+
+# Logs and caches
+*.log
+*.csv
+pipelines-*.bin
+shader/
+cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vs/
+*.user
