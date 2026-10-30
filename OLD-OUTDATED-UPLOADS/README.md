@@ -2,7 +2,7 @@
 
 **These are OLD versions. Do NOT use these on Azimuth 1.0.3 unless you have tested them yourself — they were built for Azimuth 0.9.x-era builds and have NOT been re-tested on 1.0.3. V3 is the current work.**
 
-The following ZIPs are intended for this archive but are not currently available in the repository.
+The following ZIPs are archived in this folder.
 
 | Filename | Version | Size | Date | Notes |
 | --- | --- | ---: | --- | --- |
