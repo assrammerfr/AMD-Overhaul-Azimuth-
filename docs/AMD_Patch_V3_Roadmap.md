@@ -1,11 +1,11 @@
 # AMD Azimuth Patch V3 — Roadmap: Everything, In Order
 
-Seth's call, 2026-10-30: do everything brainstormed, as V3.
+Project decision, 2026-10-30: do everything brainstormed, as V3.
 Interpretation, stated plainly so it doesn't become a trap: "everything" = the full 65-idea backlog, worked in phases, with a measurement gate on each idea. An idea that fails its measurement gets cut, not forced in. Forcing 65 features into one build = bloat, crashes, and no way to tell what helped. V3 ships as the survivors.
 
 Source list: `AMD_Patch_Ideas_Full_List.md` (65 ideas, numbers referenced below).
-Builder: Freebuff (Seth sends prompts, Muse writes them and verifies).
-Test rig: Seth, RX 5700 XT, Azimuth 1.0.3, separate test install — never the live 1.0.2 folder.
+Builder: Freebuff (prompts are sent by the project owner, Muse writes them and verifies).
+Test rig: RX 5700 XT, Azimuth 1.0.3, separate test install — never the live 1.0.2 folder.
 Other-GPU testers: WireShark, LucksterYo (RDNA2/3/4).
 
 ---
@@ -126,4 +126,4 @@ Send one prompt per phase, in order, each with:
 3. "If a gated idea fails its measurement, report it cut, don't build it anyway"
 4. Deliverable per phase: DLL + ini + README delta + benchmark CSV from the 5700 XT
 
-Seth sends, Muse verifies file state + numbers before the next phase prompt goes out.
+The project owner sends, Muse verifies file state + numbers before the next phase prompt goes out.

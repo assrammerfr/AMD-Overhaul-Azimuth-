@@ -1,6 +1,6 @@
 # AMD Azimuth Patch — Older Versions
 
-All older patch versions found and verified on Seth's PC (Downloads / F:\beam), as of 2026-10-30.
+All older patch versions found and verified on the project owner's PC (Downloads / F:\beam), as of 2026-10-30.
 This file lists versions only — it does not re-host the DLLs. The zips themselves stay where they were found (see "Where to find them" below). Do not upload a DLL to this repo without checking its licence / origin first.
 
 **Important:** these are OLD versions. They were built for Azimuth 0.9.x-era builds. They have NOT been re-tested on Azimuth 1.0.3. V3 (see `AMD_Patch_V3_Roadmap.md`) is the 1.0.3 work. Do not install an old version on 1.0.3 and expect the V3 results.
@@ -16,7 +16,7 @@ Install for any version below (all versions): drop `d3d12.dll` next to `azimuth.
 - Contents (verified from the zip): `d3d12.dll` 201,216 bytes, `README_AMD_FIX.txt` 1,045 bytes
 - Also found loose: `d3d12_v1.1.dll` — 201,216 bytes, 2026-10-12 07:26 (same size as the DLL inside the v1.1 zip)
 - What it does: D3D12 proxy, PSO caching (the v1.1 caching that V2's prompt says to extend, not replace). This is the base V2 was built on.
-- Where: PC Downloads (`F:\FromC\Users\seths\Downloads\Azimuth_AMD_Fix_v1.1.zip`)
+- Where: PC Downloads (`PC Downloads\Azimuth_AMD_Fix_v1.1.zip`)
 - Status: v1 stable line. Use this if you need the last v1 build, not V3.
 
 ### Unlabelled early build (same README as v1.1, different DLL)
@@ -30,7 +30,7 @@ Install for any version below (all versions): drop `d3d12.dll` next to `azimuth.
 - Zip: `AMD-D3D12-Proxy-v2.0.zip` — 112,350 bytes, 2026-10-13 09:55
 - Contents (verified): `AMD-D3D12-Proxy-v2.0\d3d12.dll` 223,232 bytes, `AMD-D3D12-Proxy-v2.0\README.txt` 3,680 bytes
 - What it does (per the V2 build prompt, 2026-10-13): D3D12 optimizations for AMD RDNA (descriptor heap, command allocator pooling, pipeline state caching, barrier batching), plus the XAudio2 work was planned for v2.0 with audio as v2.1 if it was too big — so do NOT assume the v2.0 zip contains the full XAudio2 implementation without checking its README.
-- Where: PC Downloads (`F:\FromC\Users\seths\Downloads\AMD-D3D12-Proxy-v2.0.zip`)
+- Where: PC Downloads (`PC Downloads\AMD-D3D12-Proxy-v2.0.zip`)
 - Status: v2 stable line. V2 is the version that "carried us so far" — this is the last stable before V3.
 
 ## Azimuth 0.9.9 patch
@@ -39,7 +39,7 @@ Install for any version below (all versions): drop `d3d12.dll` next to `azimuth.
 - Zip: `AMD-Az-Patch-0.9.9.zip` — 112,248 bytes, 2026-10-15 11:33
 - Contents (verified): `d3d12.dll` 225,280 bytes, `README.txt` 537 bytes
 - What it does (per its README): drop `d3d12.dll` into the Azimuth folder next to `azimuth.exe`. AMD GPU optimizations (async compute, PSO caching tuned for RDNA). Tested on RX 5700 XT, should work on any AMD card. FSR upscaling / frame-gen toggles exist in the config but are NOT implemented — they won't do anything.
-- Where: PC Downloads (`F:\FromC\Users\seths\Downloads\AMD-Az-Patch-0.9.9.zip`)
+- Where: PC Downloads (`PC Downloads\AMD-Az-Patch-0.9.9.zip`)
 - Note on naming: "0.9.9" here is the Azimuth version this patch was made for, not a patch version number. Do not confuse it with patch v1/v2.
 
 ---
